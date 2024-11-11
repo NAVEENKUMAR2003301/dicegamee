@@ -1,4 +1,5 @@
 
+
  // Player 1 Dice Roll
  var randomNumber1 = Math.floor(Math.random() * 6) + 1;
  var randomImageSource1 = "dice" + randomNumber1 + ".png";
@@ -29,4 +30,13 @@
  function refreshPage() {
     location.reload();
 }
+var Name = prompt("Enter Your Name:");
+var FirstLetterCap = Name.slice(0,1);
+var Cap = FirstLetterCap.toUpperCase();
+var RestOf = Name.slice(1,Name.length);
+var SmallRemain = RestOf.toLowerCase();
+var FullName = Cap+SmallRemain;
+var paragraph = document.querySelector('p');
+paragraph.textContent=FullName;
+
 
