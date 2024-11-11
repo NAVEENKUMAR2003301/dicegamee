@@ -393,6 +393,10 @@ img{
   }
 } 
 @media (max-width:900px){
+  body{
+    background-color: rgb(100, 198, 237);
+  
+  }
   .first{
     display: flex;
     padding: 50px 150px 0 150px;
@@ -472,6 +476,10 @@ img{
   }
 }
 @media (max-width:750px){
+  body{
+    background-color: rgb(141, 173, 231);
+  
+  }
   .first{
     display: flex;
     padding: 50px 150px 0 80px;
@@ -742,6 +750,19 @@ img{
     padding-bottom: 30px;
     padding-left: 30px;
   }
+  .btn{
+    position: relative;
+    top: 330px;
+    left: 150px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(6, 255, 255);
+    border: 3px solid rgb(156, 6, 12);
+    box-shadow: 1px rgb(255, 0, 55);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
 }
 @media (max-width:417px){
   .first{
@@ -777,6 +798,20 @@ img{
       font-weight: 400;
     padding-bottom: 30px;
     padding-left: 30px;
+  }
+  .btn{
+    position: relative;
+    top: 330px;
+    left: 135px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: azure;
+    background-color: rgb(0, 0, 0);
+    border: 3px solid rgb(156, 6, 12);
+    box-shadow: 1px rgb(255, 0, 55);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 }
 @media (max-width:390px){
@@ -922,6 +957,20 @@ img{
     padding-bottom: 30px;
     padding-left: 20px;
   }
+  .btn{
+    position: relative;
+    top: 330px;
+    left: 105px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: azure;
+    background-color: rgb(0, 0, 0);
+    border: 3px solid rgb(156, 6, 12);
+    box-shadow: 1px rgb(255, 0, 55);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
 }
 @media (max-width:310px){
   .first{
@@ -957,6 +1006,20 @@ img{
       font-weight: 400;
     padding-bottom: 30px;
     padding-left: 20px;
+  }
+  .btn{
+    position: relative;
+    top: 330px;
+    left: 95px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: azure;
+    background-color: rgb(0, 0, 0);
+    border: 3px solid rgb(156, 6, 12);
+    box-shadow: 1px rgb(255, 0, 55);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 }
 @media (max-width:295px){
@@ -1029,6 +1092,20 @@ img{
       font-weight: 400;
     padding-bottom: 30px;
     padding-left: 20px;
+  }
+  .btn{
+    position: relative;
+    top: 330px;
+    left: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: azure;
+    background-color: rgb(0, 0, 0);
+    border: 3px solid rgb(156, 6, 12);
+    box-shadow: 1px rgb(255, 0, 55);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 }
 @media (max-width:255px){
