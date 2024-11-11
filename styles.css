@@ -55,12 +55,15 @@ img{
   
 }
 .img {
-  animation: rotate 1s ease;
+  animation: rotate 4s forwards;
 }
 
 @keyframes rotate {
   0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  20%{ transform: rotate(360deg);}
+  40% { transform: rotate(0deg); }
+  80% { transform: rotate(360deg); }
+  100% { transform: rotate(0deg); }
 }
 @media (max-width:1541px){
   .first{

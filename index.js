@@ -24,7 +24,7 @@
  }
 
  
- },1000);
+ },5000);
 
  // Refresh page function
  function refreshPage() {
@@ -38,5 +38,6 @@ var SmallRemain = RestOf.toLowerCase();
 var FullName = Cap+SmallRemain;
 var paragraph = document.querySelector('p');
 paragraph.textContent=FullName;
+
 
 
