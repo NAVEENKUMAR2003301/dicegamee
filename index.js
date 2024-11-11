@@ -24,7 +24,7 @@
  }
 
  
- },5000);
+ },6000);
 
  // Refresh page function
  function refreshPage() {
