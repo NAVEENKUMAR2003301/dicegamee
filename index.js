@@ -23,7 +23,7 @@
  }
 
  
- },2000);
+ },1000);
 
  // Refresh page function
  function refreshPage() {
