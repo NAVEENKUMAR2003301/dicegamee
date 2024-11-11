@@ -16,7 +16,7 @@
  setTimeout(()=> {
  
  if (randomNumber1 > randomNumber2) {
-     document.querySelector("h1").innerHTML = "you wins!✨";
+     document.querySelector("h1").textContent=FullName+" Wins!✨";
  } else if (randomNumber1 < randomNumber2) {
      document.querySelector("h1").innerHTML = "Device wins!✨";
  } else {
